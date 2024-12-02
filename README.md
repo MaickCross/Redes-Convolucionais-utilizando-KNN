@@ -1,46 +1,55 @@
-Implementação e Análise de Classificação com Redes Convolucionais e o dataset CUFS
+Implementação e Análise de Classificação com Redes Convolucionais e o Dataset CUFS
+
 Descrição do Projeto
-Este projeto utiliza uma Rede Neural Convolucional (CNN) para classificação de imagens. O objetivo principal é realizar previsões baseadas em imagens de entrada, aplicando técnicas modernas de aprendizado profundo e redes neurais. O projeto foi desenvolvido como uma aplicação prática de conceitos de machine learning para resolver problemas de classificação binária.
+Este projeto utiliza uma Rede Neural Convolucional (CNN) para classificação de imagens, com o objetivo de realizar previsões baseadas em imagens de entrada. A aplicação serve como exemplo prático de técnicas modernas de aprendizado profundo e redes neurais para resolver problemas de classificação binária.
+
+---
 
 Instalação
-Para executar este projeto, siga os passos abaixo:
+Para executar o projeto, siga os passos abaixo:
 
-Clone o repositório:
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Instale as dependências necessárias:
+2. Instale as dependências necessárias:
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
-Certifique-se de que as bibliotecas listadas no arquivo requirements.txt estejam instaladas.
+3. Certifique-se de que o Jupyter Notebook está instalado:
+   pip install notebook
 
-Certifique-se de ter o ambiente configurado para executar Jupyter Notebooks:
+---
 
-pip install notebook
 Como Executar
-Abra o arquivo do projeto:
+1. Abra o arquivo do projeto no Jupyter Notebook:
+   jupyter notebook CNN_1_15.ipynb
 
-jupyter notebook CNN_1_15.ipynb
-Siga as células sequencialmente no notebook para:
+2. Siga as células sequencialmente para:
+   - Processar os dados de entrada.
+   - Treinar a Rede Neural Convolucional.
+   - Avaliar o desempenho do modelo com base nas métricas exibidas.
 
-Processar os dados de entrada.
-Treinar a Rede Neural Convolucional.
-Avaliar o desempenho do modelo com base nas métricas exibidas.
-Para fornecer os dados:
+3. Para fornecer os dados:
+   - Um arquivo labels.csv contendo os rótulos das imagens já está disponível no repositório do GitHub.
+   - Caso prefira, você também pode realizar a rotulação manual diretamente no notebook, utilizando as ferramentas disponíveis.
 
-Um arquivo labels.csv contendo os rótulos das imagens já está disponível no repositório do GitHub.
-Caso prefira, você também pode realizar a rotulação manual diretamente no notebook, utilizando as ferramentas disponíveis.
-Para reproduzir o modelo, forneça imagens no formato correto, conforme especificado no notebook.
+---
 
 Estrutura dos Arquivos
-CNN_1_15.ipynb: Arquivo principal do projeto contendo o código e as análises.
-README.md: Este arquivo, com informações sobre o projeto.
-labels.csv: Arquivo com os rótulos pré-definidos das imagens.
-requirements.txt: Lista de dependências Python necessárias para executar o projeto.
+- CNN_1_15.ipynb: Arquivo principal do projeto contendo o código e as análises.
+- labels.csv: Arquivo com os rótulos pré-definidos das imagens.
+- README.md: Arquivo de documentação com informações gerais sobre o projeto.
+- requirements.txt: Lista de dependências Python necessárias para a execução do projeto.
+
+---
+
 Tecnologias Utilizadas
-Python: Linguagem de programação principal.
-TensorFlow/Keras: Framework para construção e treinamento de redes neurais.
-Scikit-learn: Ferramentas para avaliação e processamento de dados.
-Matplotlib/Seaborn: Bibliotecas de visualização de dados.
-Jupyter Notebook: Ambiente interativo para execução do código.
+- Python: Linguagem principal utilizada.
+- TensorFlow/Keras: Frameworks para construção e treinamento de redes neurais.
+- Scikit-learn: Ferramentas para avaliação e processamento de dados.
+- Matplotlib/Seaborn: Bibliotecas para visualização de dados.
+- Jupyter Notebook: Ambiente interativo para execução do código.
+
+---
+
 Colaboradores
-Maick Vieira Alves: https://github.com/MaickCross
+- Maick Vieira Alves: https://github.com/MaickCross
